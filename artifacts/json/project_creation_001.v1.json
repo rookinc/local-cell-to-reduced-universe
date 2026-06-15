@@ -1,0 +1,11 @@
+{
+  "boundary": "Does not derive the Project 22 local-cell kernel from native G60 provenance and does not close Gap A.",
+  "closed_target": "Derive U = C(L) x A(L) and diagonal selected candidates [1,6,8,15].",
+  "copied_project22_artifact_missing_count": 0,
+  "copied_project22_artifact_success_count": 12,
+  "date": "2026-06-15",
+  "project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/23-local-cell-to-reduced-universe",
+  "source_project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/22-lift-and-twist",
+  "status": "local_cell_to_reduced_universe_project_created",
+  "working_thesis": "The 16-candidate reduced universe is generated as the product of two readouts of the Project 22 local answer cell."
+}

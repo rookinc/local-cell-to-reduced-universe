@@ -1,0 +1,31 @@
+\section{Reduced-universe derivation theorem}
+
+\begin{theorem}[Local-cell-to-reduced-universe theorem]
+Given the Project 22 local answer-cell kernel \(L=\{O0,O1,B0,B1\}\), the two readouts
+\[
+    C(L)=[O0,O1,B0,B1],
+    \qquad
+    A(L)=[B0,O0,O1,B1]
+\]
+generate a 16-candidate visible universe
+\[
+    U=C(L)\times A(L).
+\]
+The hidden identity selector \(x_C=x_A\) accepts exactly candidates \([1,6,8,15]\).  In visible coordinates this selector is the permutation \([1,2,0,3]\).
+\end{theorem}
+
+\paragraph{Proof.}
+The product of two four-state readouts has \(4\times4=16\) candidates.  Because the two readouts contain the same hidden states, the identity selector contains one accepted candidate for each hidden state.  Reading the anchor positions of \(O0,O1,B0,B1\) gives columns \(1,2,0,3\).  Therefore the selected candidate indices are
+\[
+    4\cdot0+1=1,
+\]
+\[
+    4\cdot1+2=6,
+\]
+\[
+    4\cdot2+0=8,
+\]
+\[
+    4\cdot3+3=15.
+\]
+So the selected set is exactly \([1,6,8,15]\).
